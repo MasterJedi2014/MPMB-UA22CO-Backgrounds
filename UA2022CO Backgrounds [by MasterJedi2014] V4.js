@@ -1157,8 +1157,8 @@ BackgroundFeatureList["respect of the stout folk ua22co"] = {
 	// Artisan BG Feature
 	description : "No one esteems clan crafters quite so highly as dwarves do. I always have free room and board in any place where shield dwarves or gold dwarves dwell, and the individuals in such a settlement might vie among themselves to determine who can offer me (and possibly my compatriots) the finest accommodations and assistance. \n As an Artisan, I gain the Crafter (UA22CO) feat at 1st level.",
 	source : [["MJ:HB", 0], ["UA22CO", 12]],
-	eval : function() { AddFeat("Crafter UA22CO"); },
-	removeeval : function() { RemoveFeat("Crafter UA22CO"); }
+	eval : function() { AddFeat("Crafter (UA22CO)"); },
+	removeeval : function() { RemoveFeat("Crafter (UA22CO)"); }
 };
 
 BackgroundFeatureList["false identity ua22co"] = {
@@ -1173,8 +1173,8 @@ BackgroundFeatureList["criminal contact ua22co"] = {
 	// Criminal BG Feature
 	description : "I have a reliable and trustworthy contact who acts as my liaison to a network of other criminals. I know how to get messages to and from my contact, even over great distances; specifically, I know the local messengers, corrupt caravan masters, and seedy sailors who can deliver my messages. \n As a Criminal, I gain the Alert (UA22CO) feat at 1st level.",
 	source : [["MJ:HB", 0], ["UA22CO", 12]],
-	eval : function() { AddFeat("Alert UA22CO"); },
-	removeeval : function() { RemoveFeat("Alert UA22CO"); }
+	eval : function() { AddFeat("Alert (UA22CO)"); },
+	removeeval : function() { RemoveFeat("Alert (UA22CO)"); }
 };
 
 BackgroundFeatureList["cult teachings ua22co"] = {
@@ -1189,8 +1189,8 @@ BackgroundFeatureList["by popular demand ua22co"] = {
 	// Entertainer BG Feature
 	description : "I can always find a place to perform (inn/tavern/circus/etc.), where I receive free lodging and food of a modest or comfortable standard, as long as I perform each night. In addition, my performance makes me something of a local figure. When strangers recognize me in a town where I have performed, they typically take a liking to me. \n As an Entertainer, I gain the Musician (UA22CO) feat at 1st level.",
 	source : [["MJ:HB", 0], ["UA22CO", 12]],
-	eval : function() { AddFeat("Musician UA22CO"); },
-	removeeval : function() { RemoveFeat("Musician UA22CO"); }
+	eval : function() { AddFeat("Musician (UA22CO)"); },
+	removeeval : function() { RemoveFeat("Musician (UA22CO)"); }
 };
 
 BackgroundFeatureList["harvest the land ua22co"] = {
@@ -1213,8 +1213,8 @@ BackgroundFeatureList["watchers eye ua22co"] = {
 	// Guard BG Feature
 	description : "My experience in enforcing the law, and dealing with lawbreakers, gives me a feel for local laws and criminals. I can easily find the local outpost of the watch, guards or a similar organization, and just as easily pick out the dens of criminal activity in a community. I am far more likely to be welcome in the former locations rather than the latter, however. \n As a Guard, I gain the Alert (UA22CO) feat at 1st level.",
 	source : [["MJ:HB", 0], ["UA22CO", 13]],
-	eval : function() { AddFeat("Alert UA22CO"); },
-	removeeval : function() { RemoveFeat("Alert UA22CO"); }
+	eval : function() { AddFeat("Alert (UA22CO)"); },
+	removeeval : function() { RemoveFeat("Alert (UA22CO)"); }
 };
 
 BackgroundFeatureList["makeshift meals ua22co"] = {
