@@ -657,7 +657,7 @@ BackgroundList["guard ua22co"] = {
 		["Light crossbow", "", 5],
 		["Spear", "", 3],
 	],
-	feature : "Watcher's eye UA22CO",
+	feature : "Watcher's Eye UA22CO",
 	trait : [
 		"I'm always polite and respectful.",
 		"I'm haunted by memories of war. I can't get the images of violence out of my mind.",
@@ -1423,7 +1423,7 @@ BackgroundFeatureList["harvest the land ua22co"] = {
 	removeeval : function() { RemoveFeat("Tough"); }
 };
 
-BackgroundFeatureList["are you entertained ua22co"] = {
+BackgroundFeatureList["are you entertained? ua22co"] = {
 	// Gladiator BG Feature
 	description : "I can always find a place to perform (arena/pit fight), where I receive free lodging and food of a modest or comfortable standard, as long as I perform each night. In addition, my performance makes me something of a local figure. When strangers recognize me in a town where I have performed, they typically take a liking to me. \n As a Gladiator, I gain the Savage Attacker (UA22CO) feat at 1st level.",
 	source : [["MJ:HB", 0], ["UA22CO", 13]],
@@ -1431,7 +1431,7 @@ BackgroundFeatureList["are you entertained ua22co"] = {
 	removeeval : function() { RemoveFeat("Savage Attacker"); }
 };
 
-BackgroundFeatureList["watchers eye ua22co"] = {
+BackgroundFeatureList["watcher's eye ua22co"] = {
 	// Guard BG Feature
 	description : "My experience in enforcing the law, and dealing with lawbreakers, gives me a feel for local laws and criminals. I can easily find the local outpost of the watch, guards or a similar organization, and just as easily pick out the dens of criminal activity in a community. I am far more likely to be welcome in the former locations rather than the latter, however. \n As a Guard, I gain the Alert (UA22CO) feat at 1st level.",
 	source : [["MJ:HB", 0], ["UA22CO", 13]],
@@ -1487,7 +1487,7 @@ BackgroundFeatureList["researcher ua22co"] = {
 	removeeval : function() { RemoveFeat("Magic Initiate"); }
 };
 
-BackgroundFeatureList["ships passage ua22co"] = {
+BackgroundFeatureList["ship's passage ua22co"] = {
 	// Sailor BG Feature
 	description : "When I need to, I can secure free passage on a sailing ship for myself and my companions. I might sail on the ship I served on, or another ship I have good relations with. Because I'm calling in a favor, I can't be certain of a schedule or route that will meet my every need. My companions and I are expected to assist the crew during the voyage. \n As a Sailor, I gain the Tavern Brawler (UA22CO) feat at 1st level.",
 	source : [["MJ:HB", 0], ["UA22CO", 15]],
