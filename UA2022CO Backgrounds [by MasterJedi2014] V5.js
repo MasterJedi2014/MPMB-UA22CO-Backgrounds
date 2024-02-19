@@ -4,7 +4,7 @@
 				It also adds the Feats that are either new to this article or have significantly different functions from their previous version.
 				This file has been made by MasterJedi2014.
 	Code by:	MasterJedi2014, using MorePurpleMoreBetter's code as reference
-	Date:		2024-02-18 (sheet v13.1.0)
+	Date:		2024-02-19 (sheet v13.1.0)
 */
 
 var iFileName = "UA2022CO Backgrounds [by MasterJedi2014] V5.js";
@@ -102,6 +102,7 @@ BackgroundList["artisan ua22co"] = {
 	languageProfs : [1, "Gnomish"],
 	lifestyle : "comfortable",
 	scores : [0, 0, 0, 2, 0, 1],
+	scorestxt : "+2 Intelligence, +1 Charisma",
 	equipleft : [
 		["Artisan's tools (of chosen type)", "", ""],
 		["Abacus", "", 2],
@@ -194,6 +195,7 @@ BackgroundList["charlatan ua22co"] = {
 	languageProfs : [1, "Infernal"],
 	lifestyle : "comfortable",
 	scores : [0, 1, 0, 0, 0, 2],
+	scorestxt : "+2 Charisma, +1 Dexterity",
 	equipleft : [
 		["Forgery kit", "", 5],
 		["Costume clothes", "", 4],
@@ -269,6 +271,7 @@ BackgroundList["criminal ua22co"] = {
 	languageProfs : [1, "Thieves' Cant"],
 	lifestyle : "poor",
 	scores : [0, 2, 0, 1, 0, 0],
+	scorestxt : "+2 Dexterity, +1 Intelligence",
 	equipleft : [
 		["Crowbar", "", 5],
 		["Dagger", "", 1],
@@ -350,6 +353,7 @@ BackgroundList["cultist ua22co"] = {
 	languageProfs : [1, "Abyssal"],
 	lifestyle : "poor",
 	scores : [0, 0, 0, 2, 0, 1],
+	scorestxt : "+2 Intelligence, +1 Charisma",
 	equipleft : [
 		["Disguise kit", "", 3],
 		["Bell", "", 0.03125],
@@ -426,6 +430,7 @@ BackgroundList["entertainer ua22co"] = {
 	languageProfs : [1, "Elvish"],
 	lifestyle : "modest",
 	scores : [0, 1, 0, 0, 0, 2],
+	scorestxt : "+2 Charisma, +1 Dexterity",
 	equipleft : [
 		["Musical instrument (of chosen type)", "", ""],
 		["Costume clothes", 2, 4],
@@ -507,6 +512,7 @@ BackgroundList["farmer ua22co"] = {
 	languageProfs : [1, "Halfling"],
 	lifestyle : "poor",
 	scores : [0, 0, 2, 0, 1, 0],
+	scorestxt : "+2 Constitution, +1 Wisdom",
 	equipleft : [
 		["Carpenter's tools", "", 6],
 		["Healer's kit (10 uses left)", "", 3],
@@ -576,6 +582,7 @@ BackgroundList["gladiator ua22co"] = {
 	languageProfs : [1, "Orc"],
 	lifestyle : "modest",
 	scores : [2, 0, 0, 0, 0, 1],
+	scorestxt : "+2 Strength, +1 Charisma",
 	equipleft : [
 		["Smith's tools", "", 8],
 		["Healer's kit (10 uses left)", "", 3],
@@ -645,6 +652,7 @@ BackgroundList["guard ua22co"] = {
 	languageProfs : [1, "Dwarvish"],
 	lifestyle : "poor",
 	scores : [2, 0, 0, 0, 1, 0],
+	scorestxt : "+2 Strength, +1 Wisdom",
 	equipleft : [
 		["Gaming set (of chosen type)", "", ""],
 		["Hooded lantern", "", 2],
@@ -716,6 +724,7 @@ BackgroundList["guide ua22co"] = {
 	languageProfs : [1, "GIant"],
 	lifestyle : "poor",
 	scores : [0, 1, 0, 0, 2, 0],
+	scorestxt : "+2 Wisdom, +1 Dexterity",
 	equipleft : [
 		["Cartographer's tools", "", 6],
 		["Fishing tackle", "", 4],
@@ -798,6 +807,7 @@ BackgroundList["hermit ua22co"] = {
 	languageProfs : [1, "Sylvan"],
 	lifestyle : "poor",
 	scores : [0, 0, 1, 0, 2, 0],
+	scorestxt : "+2 Wisdom, +1 Constitution",
 	equipleft : [
 		["Herbalism kit", "", 3],
 		["Bedroll", "", 7],
@@ -880,6 +890,7 @@ BackgroundList["laborer ua22co"] = {
 	languageProfs : [1, "Dwarvish"],
 	lifestyle : "modest",
 	scores : [1, 0, 2, 0, 0, 0],
+	scorestxt : "+2 Constitution, +1 Strength",
 	equipleft : [
 		["Mason's tools", "", 8],
 		["Bullseye lantern", "", 2],
@@ -951,6 +962,7 @@ BackgroundList["noble ua22co"] = {
 	languageProfs : [1, "Draconic"],
 	lifestyle : "wealthy",
 	scores : [0, 0, 0, 1, 0, 2],
+	scorestxt : "+2 Charisma, +1 Intelligence",
 	equipleft : [
 		["Gaming set (of chosen type)", "", ""],
 		["Perfume (vial)", "", 0.125],
@@ -1018,6 +1030,7 @@ BackgroundList["pilgrim ua22co"] = {
 	languageProfs : [1, "Halfling"],
 	lifestyle : "poor",
 	scores : [0, 0, 1, 0, 2, 0],
+	scorestxt : "+2 Wisdom, +1 Constitution",
 	equipleft : [
 		["Musical intrument (of chosen type)", "", ""],
 		["Bedroll", "", 7],
@@ -1087,6 +1100,7 @@ BackgroundList["sage ua22co"] = {
 	languageProfs : [1, "Elvish"],
 	lifestyle : "modest",
 	scores : [0, 0, 0, 2, 1, 0],
+	scorestxt : "+2 Intelligence, +1 Wisdom",
 	equipleft : [
 		["Calligrapher's supplies", "", 5],
 		["Book (History)", "", 5],
@@ -1166,6 +1180,7 @@ BackgroundList["sailor ua22co"] = {
 	languageProfs : [1, "Primordial"],
 	lifestyle : "modest",
 	scores : [0, 2, 0, 0, 1, 0],
+	scorestxt : "+2 Dexterity, +1 Wisdom",
 	equipleft : [
 		["Navigator's tools", "", 2],
 		["Fishing tackle", "", 1],
@@ -1234,6 +1249,7 @@ BackgroundList["soldier ua22co"] = {
 	languageProfs : [1, "Goblin"],
 	lifestyle : "modest",
 	scores : [2, 0, 1, 0, 0, 0],
+	scorestxt : "+2 Strength, +1 Constitution",
 	equipleft : [
 		["Gaming set (of chosen type)", "", ""],
 		["Healer's kit (10 uses left)", "", 3],
@@ -1304,6 +1320,7 @@ BackgroundList["urchin ua22co"] = {
 	languageProfs : [1, "Common Sign Language"],
 	lifestyle : "modest",
 	scores : [0, 2, 0, 0, 1, 0],
+	scorestxt : "+2 Dexterity, +1 Wisdom",
 	equipleft : [
 		["Bedroll", "", 7],
 		["Dagger", "", 1],
